@@ -1,21 +1,16 @@
-
 Pod::Spec.new do |s|
-
   s.name         = "PodProject"
   s.version      = "0.0.1"
-  s.summary      = "测试工程."
-
-  s.description  = "描述什么"
+  s.summary      = "Test"
+  s.description  = "Des Test"
+  s.license      = 'MIT'
 
   s.homepage     = "https://github.com/fishHT/PodProject"
 
-  s.license      = "MIT"
+  s.author             = { "fishHT" => "email@address.com" }
 
-  s.author             = { "huangtao" => "477680864@qq.com" }
+  s.source       = { :git => "https://github.com/fishHT/PodProject.git", :commit => "1cbf5b915902d830ed4bc4b982c2c4cfede5fbbb" }
 
-  s.source       = { :git => "https://github.com/fishHT/PodProject.git", :tag => "#{s.version}" }
-
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "PodProject/Classes/*.{h,m}"
 
 end
